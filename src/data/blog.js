@@ -1,31 +1,39 @@
-import logo from "../assets/logo";
+// src/data/blog.js
 
-const blogData = {
-  name: "Underreacted",
-  image: logo,
-  about: "A blog about learning React",
+const blog = {
+  name: "Preshi's Tech Blog",
+
+  image:
+    "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+
+  about:
+    "Welcome to my personal tech blog where I share coding tips, React projects, and web development ideas.",
+
   posts: [
     {
       id: 1,
-      title: "Components 101",
-      date: "December 15, 2020",
-      preview: "Setting up the building blocks of your site",
-      minutes: 5,
+      title: "Getting Started with React",
+      date: "May 10, 2026",
+      preview:
+        "React makes it painless to create interactive UIs for your web applications.",
     },
+
     {
       id: 2,
-      title: "React Data Flow",
-      date: "December 11, 2020",
-      preview: "Passing props is never passé",
-      minutes: 15,
+      title: "Why Components Matter",
+      date: "May 11, 2026",
+      preview:
+        "Components help break your UI into reusable and manageable pieces.",
     },
+
     {
       id: 3,
-      title: "Function vs Class Components",
-      preview: "React, meet OOJS.",
-      minutes: 47,
+      title: "Understanding Props",
+      date: "May 12, 2026",
+      preview:
+        "Props allow data to flow between React components efficiently.",
     },
   ],
 };
 
-export default blogData;
+export default blog;
